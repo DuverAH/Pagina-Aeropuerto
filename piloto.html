@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/piloto.css">
+    <title> Ingreso Pilotos </title>
+</head>
+<body>
+    <div>
+        <ul class="menu">
+            <li >
+                <a href="/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="/ingreso_usuario.html">Ingreso Usuarios</a>
+            </li>
+            <li>
+                <a href="/piloto.html">Ingreso Piloto</a>
+            </li>
+            <li>
+                <a href="/administrador.html">Ingreso Administrador</a>
+            </li>
+            <li>
+                <a href="/contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="formulario">
+
+        <div class="formulario__recomendaciones">
+            <ul>
+                <li>
+                    <p> 
+                        Esta espacio es solo para ingreso de pilotos 
+                    </p>
+                </li>
+                <li>
+                    <p> 
+                        Señor piloto, si no cuenta con un usuario ni contraseña, comuniquese con el administrador para que cree y le brinde el usuario y la contraseña.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Si no recuerda el usuario ni la contraseña, comunoquese con su administrador
+                    </p>
+                </li>
+            </ul>
+        </div>
+            
+        
+        <form action="" method="post" class="formulario__piloto">
+                <h2 class="formulario__piloto-titulo"> Ingreso de Pilotos </h2>
+                <div class="formulario__piloto-entorno">
+
+                    <div class="formulario__piloto-entorno-casillas">
+                        <input type="text" id="name" class="formulario__input" placeholder=" ">
+                        <label for="name" class="formulario__label"> Usuario del Piloto: </label>
+                        <span class="formulario__linea"></span>
+                    </div>
+                    <div class="formulario__piloto-entorno-casillas">
+                        <input type="password" id="password" class="formulario__input" placeholder=" ">
+                        <label for="password" class="formulario__label"> Contraseña: </label>
+                        <span class="formulario__linea"></span>
+                    </div>
+
+                    <input type="submit" class="formulario__submit" value="Entrar">
+                </div>
+                
+
+                
+        </form>
+        
+    </div>
+
+</body>
+</html>

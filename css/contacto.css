@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-size: cover;
+    background-image: url(../fondos/aeropuertos-800.jpg);
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    background: #e1d033;
+    width: 90%;
+    height: 54px;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #827870;
+    padding:16px 20px;
+    display:block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 34px;
+}
+
+.menu li a:hover{
+    background: #e37e15;
+    border: 1em;
+}
+
+.pie {
+    background: #0081ff;
+    font-family: 'Exo 2', sans-serif;
+    position:fixed;
+    width: 100%;
+   bottom:0px;
+}
+
+img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.pie__header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pie__header-logo p{
+    font-size: 18px;
+    color: white;   
+}
+
+span {
+    font-size: 23px;
+}
+
+.fb {
+    background: rgb(0, 81, 255);
+    padding: 6px 6px;
+    border-radius: 50px;
+    color: white;
+}
+
+.wp{
+    background: #0dc143;
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.li{
+    background: #104cef;
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.in{
+    background: #e011a9;
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.yt{
+    background: #e80808;
+    padding: 5px 5px;
+    border-radius: 50px;
+    color: white;
+}
+
+.pie__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.pie__seccion {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.pie__seccion div{
+    display: flex;
+    flex-direction: column;
+}
+
+div h2{
+    color: #dfdb38;
+    padding: 10px 0px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.597);
+    text-decoration: none;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    background: none;
+    border: solid 2px #dfdb38;
+    padding: 10px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ffdaa7;
+    color: #5de393;
+    font-size: 18px;
+}
+
+.pie__derechos {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0c284413;
+    color: #843a36;
+}

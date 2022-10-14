@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../fondos/Los-mejores-aeropuertos-del-mundo.jpg);
+    background-size: cover;
+}
+
+.base{
+    margin: 100px 180px;
+    background-color: rgb(91, 93, 149, 0.5);
+    border-radius: 1em;
+    padding: 50px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    background: #e1d033;
+    width: 90%;
+    height: 50px;
+    max-width: 1020px;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #827870;
+    padding:16px 20px;
+    display:block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 34px;
+}
+
+.menu li a:hover{
+    background: #e37e15;
+    border: 1em;
+}
+
+.presentacion p{
+    color:#3e1b07;
+    text-align: justify;
+    float: left;
+    font-size: 19px;
+}
+
+ul{
+    list-style: none;
+}
+
+.aeropuertos__contenido-1 {
+    margin-top: 50px;
+}
+
+.aeropuertos__contenido-1 h2{
+    font-size: 30px;
+    color: #112a3a;
+}
+
+.aeropuertos__contenido-1 p{
+    text-align: justify;
+    font-size: 19px;
+}
+
+.aeropuertos__contenido-1 img{
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+.aeropuertos__contenido-2 h2{
+    font-size: 30px;
+    color: #112a3a;
+}
+
+.aeropuertos__contenido-2 p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.aeropuertos__contenido-2 img{
+    width: 300px;
+    float: right;
+    margin-left: 15px;
+}
+
+.aeropuertos__contenido-3 h2{
+    font-size: 30px;
+    color: #112a3a;
+}
+
+.aeropuertos__contenido-3 img{
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
